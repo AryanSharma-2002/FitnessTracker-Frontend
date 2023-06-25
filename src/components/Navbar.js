@@ -13,6 +13,7 @@ function Navbar() {
             <NavItem link="/dashboard" text="Dashboard" />
             <NavItem link="/plans" text="Plans" />
             <NavItem link="/nutrition" text="Nutrition Tracking" />
+            <NavItem link="/challenges" text="Challenges" />
             <NavItem link="/login" text="Login" />
             <NavItem link="/register" text="Register" />
           </ul>

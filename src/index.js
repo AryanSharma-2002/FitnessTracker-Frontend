@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LoginForm from "./components/LoginForm";
 import Nutrition from "./components/Nutrition";
 import Register from "./components/RegisterForm";
+import Challenges from "./components/ChallengesPage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/challenges",
+    element: <Challenges />,
   },
 ]);
 
